@@ -1,4 +1,8 @@
 package com.codewithjoro.decorator;
 
-public class CloudStream {
+public class CloudStream implements Stream {
+   @Override
+   public void write(String data) {
+      System.out.println("Storing " + data + " in cloud");
+   }
 }

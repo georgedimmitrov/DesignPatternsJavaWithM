@@ -1,4 +1,7 @@
 package com.codewithjoro.proxy;
 
-public class Ebook {
+public interface Ebook {
+   void show();
+
+   String getFileName();
 }

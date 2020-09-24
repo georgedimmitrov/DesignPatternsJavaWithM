@@ -1,4 +1,5 @@
 package com.codewithjoro.adapter;
 
-public class Filter {
+public interface Filter {
+   void apply(Image image);
 }

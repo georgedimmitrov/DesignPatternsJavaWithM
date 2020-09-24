@@ -2,10 +2,10 @@ package com.codewithjoro.adapter;
 
 import com.codewithjoro.adapter.thirdPartyFilters.Caramel;
 
-public class CaramelFilter implements Filter {
+public class CaramelAdapter implements Filter {
    private Caramel caramel;
 
-   public CaramelFilter(Caramel caramel) {
+   public CaramelAdapter(Caramel caramel) {
       this.caramel = caramel;
    }
 

@@ -1,4 +1,8 @@
 package com.codewithjoro.visitor;
 
-public class AnchorNode {
+public class AnchorNode implements HtmlNode {
+   @Override
+   public void execute(Operation operation) {
+      operation.apply(this);
+   }
 }
